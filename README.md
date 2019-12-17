@@ -1,4 +1,5 @@
-# CSCI 5702/7702 - Fall 2019 - Assignment 1 Locality Sensitive Hashing for Approximate Nearest Neighbor Search
+## Sep 29 2019 CSCI 5702 Big Data Mining  
+# Assignment 1 Locality Sensitive Hashing for Approximate Nearest Neighbor Search
 
 ## Problem Description:
 In this assignment, we study the application of LSH to the problem of finding approximate near neighbors. You will be provided a template of partially completed PySpark code to fill in, then you will use your implementation to study the performance of LHS for approximate nearest neighbor search.
