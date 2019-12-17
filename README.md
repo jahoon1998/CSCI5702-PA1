@@ -27,7 +27,7 @@ The included starter code in lsh.py marks all locations where you need to contri
 * Plot the error value as a function of L (for L = 10, 12, 14, ..., 20, with k = 24). Similarly, plot the error value as a function of k (for k = 16, 18, 20, 22, 24 with L = 10). Briefly comment on the two plots (one sentence per plot would be sufficient). • Finally, plot the top 10 nearest neighbors found6 using the two methods
 * Finally, plot the top 10 nearest neighbors found6 using the two methods (using the default L = 10, k = 24 or your alternative choice of parameter values for LSH) for the image patch in column 100, together with the image patch itself. You may find the function plot useful. How do they compare visually?
 
-## Footnotes:
+### Footnotes:
 0. A family H of hash functions is said to be (d1, d2, p1, p2)-sensitive if for any x and y in S: 1. If d(x, y) < d1, then the probability over all hÎ H, that h(x) = h(y) is at least p1 2. If d(x, y) > d2, then the probability over all hÎ H, that h(x) = h(y) is at most p2.
 1. The equality G = H<sup>k</sup> is saying that every function of G is an AND-construction of k functions of H, so g(x) = g(y) only if h<sub>i</sub>(x) = h<sub>i</sub>(y) for every h<sub>i</sub> underlying g.
 2. If there are fewer than 3L data points hashing to the same buckets as the query point, just take all of them.
