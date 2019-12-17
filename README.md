@@ -41,3 +41,6 @@ The included starter code in lsh.py marks all locations where you need to contri
 * To access a class field from inside of the class in Python you need to use keyword self (e.g. to access the object’s `functions` field you will need to call `self.functions`) 
 * Similarly to call a method from inside the class you will need to call `self` (e.g. to call class method `fn()` you need to call `self.fn()`)
 * Class functions can be called from within a map function in PySpark using `sc.map(lambda x: self.fn(x), pySparkDF)`
+
+
+\left \| a - b \right \| = \sqrt{\sum_{i=1}^{d}(a_{i}-b_{i})^{^{2}}}
