@@ -42,5 +42,4 @@ The included starter code in lsh.py marks all locations where you need to contri
 * Similarly to call a method from inside the class you will need to call `self` (e.g. to call class method `fn()` you need to call `self.fn()`)
 * Class functions can be called from within a map function in PySpark using `sc.map(lambda x: self.fn(x), pySparkDF)`
 
-
-\left \| a - b \right \| = \sqrt{\sum_{i=1}^{d}(a_{i}-b_{i})^{^{2}}}
+![equation](https://latex.codecogs.com/gif.latex?\left&space;\|&space;a&space;-&space;b&space;\right&space;\|&space;=&space;\sqrt{\sum_{i=1}^{d}(a_{i}-b_{i})^{^{2}}}" title="\left \| a - b \right \| = \sqrt{\sum_{i=1}^{d}(a_{i}-b_{i})^{^{2}}}" /></a>)
